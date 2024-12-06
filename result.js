@@ -34,10 +34,3 @@ const randomResults = [
       localStorage.removeItem('nickname'); // Clear nickname
       window.location.href = 'index.html';
     });
-
-    // 모바일 화면 끌어내리기 새로고침 방지
-    document.addEventListener('touchmove', function (event) {
-        if (window.scrollY === 0 && event.touches[0].clientY > 0) {
-        event.preventDefault(); // 새로고침 제스처 방지
-    }
-     }, { passive: false });
