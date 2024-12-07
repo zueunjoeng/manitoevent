@@ -10,9 +10,12 @@ body {
   }
   h1{
     font-family: 'Allnight';
+    margin-top: 0;
   }
   h6{
     color: #666666;
+    margin-top: 38px;
+    margin-bottom: 0;
   }
 
   #result {
