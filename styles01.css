@@ -55,6 +55,7 @@ body {
     font-weight: 600;
   }
   #result-text {
+    margin-top: 0;
     white-space: pre-line; /* 줄바꿈 문자(\n)를 HTML 줄바꿈으로 렌더링 */
     text-align: center; /* 텍스트 중앙 정렬 (필요에 따라 추가) */
   }

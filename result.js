@@ -10,7 +10,7 @@ const randomResults = [
   { text: "이상고등학교 얼짱인줄 알았더니 먹짱, 이재현", img: "./img/현재01.png" },
   { text: "이상고등학교 급식1등은 놓친 적 없는 주학년", img: "./img/학년.png" },
   { text: "이상고등학교 스치면 친구, 손영재", img: "./img/에릭01.png" },
-  { text: "나의 영원한 소년들, 더보이즈입니다. \n 시원한 여름처럼 따뜻한 겨울처럼 \n 늘 더보이즈와 함께하는 순간은 행복만 가득하길", img: "./img/단체.jpeg" }
+  { text: "영원할 소년들, 더보이즈입니다. \n 시원한 여름처럼 따뜻한 겨울처럼 \n 더보이즈와 함께하는 순간은 행복만 가득하길", img: "./img/단체.jpeg" }
     ];
 
     const nickname = localStorage.getItem('nickname');
